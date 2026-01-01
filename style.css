@@ -1,0 +1,58 @@
+body {
+  background: #f5f6fa;
+  overflow-x: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #f8efe5;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background: #ffb703;
+  color: #fff;
+}
+
+/* Cards */
+.stat-card {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 120px;
+}
+
+.stat-card i {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+/* Card colors */
+.bg-light-blue {
+  background: #e8f4ff;
+}
+
+.bg-light-pink {
+  background: #fde8f0;
+}
+
+.bg-light-yellow {
+  background: #fff7db;
+}
+
+.bg-orange {
+  background: #ffb703;
+}
+
+/* Main */
+.main-content {
+  background: #ffffff;
+}
